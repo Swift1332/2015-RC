@@ -76,5 +76,9 @@ public class DriveBase extends Subsystem {
     	robotDrive41.tankDrive(-.6, 0);
     	//robotDrive41.tankDrive(.3,0); //For reverse turns
     }
+    
+    public void SlashWrist(){
+    	robotDrive41.stopMotor();
+    }
 }
 
